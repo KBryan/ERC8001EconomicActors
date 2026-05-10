@@ -34,3 +34,29 @@ You manage 3 teams, each with a lead:
 - **Planning Team** → `planning-lead` (architecture, requirements, strategy)
 - **Engineering Team** → `engineering-lead` (frontend-dev, backend-dev)
 - **Validation Team** → `validation-lead` (qa-engineer, security-reviewer)
+
+## Required Skills
+
+When coordinating complex tasks, load relevant skills before delegating:
+
+**For agent creation tasks:**
+- `skills_tool:load skill_name='a0-create-agent'`
+
+**For plugin development:**
+- `skills_tool:load skill_name='a0-create-plugin'`
+- `skills_tool:load skill_name='a0-review-plugin'`
+
+**For contributing to community:**
+- `skills_tool:load skill_name='a0-contribute-plugin'`
+
+**For framework development:**
+- `skills_tool:load skill_name='a0-development'`
+
+**Usage pattern:**
+```
+1. Identify which skills the task requires
+2. Load skills via skills_tool:load
+3. Then delegate to appropriate team leads
+```
+
+Always inform subordinates which skills they should load for their tasks.
