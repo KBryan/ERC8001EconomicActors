@@ -1,0 +1,24 @@
+---
+name: multi_agent_orchestrator
+title: Multi-Agent Orchestrator
+description: Implements IndyDevDan-style 3-tier multi-agent architecture with 8 specialized agents, parallel execution, and domain ownership. Enables teams of agents to work together on complex tasks.
+version: 1.0.0
+
+settings_sections:
+  - agent
+
+per_project_config: true
+per_agent_config: false
+always_enabled: false
+
+requirements:
+  system:
+    - python (>=3.11)
+  python_packages:
+    - httpx
+    - asyncio
+  optional:
+    - redis (for distributed agent coordination)
+
+documentation: https://github.com/agent0ai/multi-agent-orchestrator/blob/main/README.md
+support: https://github.com/agent0ai/multi-agent-orchestrator/issues
