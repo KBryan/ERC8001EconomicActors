@@ -1,5 +1,7 @@
 # Multi-Agent Orchestrator Plugin
 
+<img width="1448" height="1086" alt="okay" src="https://github.com/user-attachments/assets/b9433be4-26c2-43c1-a39d-68510db7a008" />
+
 A production-ready implementation of IndyDevDan's 3-tier multi-agent architecture for Agent Zero. Enables teams of specialized agents to work together on complex tasks with parallel execution, domain ownership, and persistent mental models.
 
 ## Features
